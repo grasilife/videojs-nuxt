@@ -91,7 +91,8 @@ export default {
         player.play();
       });
     },
-    showClick: function() {
+    showClick: function() {-
+      this.player.dispose()
       this.palyShow = !this.palyShow;
     }
   },
